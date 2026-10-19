@@ -1,0 +1,74 @@
+@media screen and (max-width: 1023px) {
+  .header .logo-box .logo-image {
+    width: 40px;
+  }
+  .header .navbar {
+    gap: 0.4rem;
+  }
+  .header .header-btn {
+    padding: 0.8rem;
+    font-size: 0.7rem;
+  }
+  .hero,
+  .page-hero {
+    margin-top: 3.9rem;
+  }
+  .hero .hero-title,
+  .page-hero .page-hero-title {
+    font-size: 2.7rem;
+  }
+  .specialtiems-wrapper .specialtiems-item .specialtiems-item-img {
+    height: 13rem;
+  }
+  .specialtiems-wrapper .specialtiems-item .specialtiems-item-name {
+    margin: 1.5rem 0 0.8rem 1.5rem;
+  }
+  .specialtiems-wrapper .specialtiems-item .specialtiems-item-text {
+    margin: 0 0 1.5rem 1.5rem;
+  }
+  .promo-banner {
+    background-position: center;
+    padding: 3rem;
+  }
+  .promo-banner .promo-title {
+    font-size: 1.7rem;
+  }
+  .promo-banner .promo-text {
+    font-size: 0.8rem;
+  }
+  .footer .footer-box {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .foot-logo-box .foot-logo-image {
+    width: 52px;
+  }
+  .page-hero .page-hero-title {
+    line-height: 2rem;
+  }
+  .product-card .product-img {
+    width: 50%;
+  }
+  .product-card .product-info {
+    padding: 1rem;
+    align-self: center;
+  }
+  .product-card .product-info .product-text {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    align-self: center;
+  }
+  .product-card .product-info .product-price {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+  .about-story {
+    gap: 2.5rem;
+  }
+  html{
+    font-size: 80%;
+  }
+  .message-form{
+    gap: 0.8rem;
+  }
+}

@@ -1,0 +1,129 @@
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 0.5rem 2rem;
+  }
+  .header .navbar {
+    display: none;
+  }
+  .header .sidebar-menu-box {
+    display: block;
+  }
+  .sidebar-list {
+    display: block;
+  }
+  .sidebar-menu-box label .fa-close {
+    display: none;
+  }
+  .hero {
+    background-position: right;
+  }
+  .hero .hero-subtitle {
+    font-size: 0.8rem;
+  }
+  .hero .hero-title,
+  .page-hero .page-hero-title {
+    font-size: 2.1rem;
+  }
+  .hero .hero-text,
+  .page-hero-beadcrumb .beadcrumb-link {
+    font-size: 0.7rem;
+  }
+  .hero .hero-menu-btn {
+    margin-bottom: 10px;
+  }
+  .specialtiems-section {
+    padding: 80px 5rem 60px;
+  }
+  .specialtiems-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
+  .specialtiems-section .specialtiems-title,
+  .specialtiems-wrapper .specialtiems-item .specialtiems-item-text {
+    font-size: 0.8rem;
+  }
+  .specialtiems-section .specialtiems-subtitle,
+  .specialtiems-wrapper .specialtiems-item .specialtiems-item-name {
+    font-size: 1.2rem;
+  }
+  .promo-banner {
+    text-align: center;
+    margin: 10px 3rem 60px;
+  }
+  .promo-banner .promo-title {
+    font-size: 1rem;
+  }
+  .promo-banner .promo-text {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+  .promo-banner .promo-menu-btn {
+    font-size: 0.8rem;
+    padding: 7px 10px;
+  }
+  .footer .footer-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer .copyright-text {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  .go-top-btn {
+    right: 2rem;
+  }
+  .page-hero {
+    height: 30dvh;
+  }
+  .page-hero .page-hero-title {
+    line-height: 0;
+  }
+  .menu-section {
+    justify-content: flex-start;
+  }
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 3rem 3rem;
+  }
+  .product-card .product-img {
+    width: 55%;
+  }
+  .product-card .product-info .product-title {
+    font-size: 0.9rem;
+  }
+  .product-card .product-info .product-text {
+    font-size: 0.7rem;
+  }
+  .product-card .product-info .product-price {
+    font-size: 0.8rem;
+    margin-top: 0;
+  }
+  .combo-section {
+    padding: 2rem;
+    text-align: center;
+    margin: 0 3rem 4rem;
+  }
+  .combo-section .combo-title {
+    font-size: 1.8rem;
+  }
+  .combo-section .combo-text {
+    font-size: 0.8rem;
+  }
+  .combo-section .combo-menu-btn {
+    padding: 0.4rem 0.8rem;
+  }
+  .about-story {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem;
+  }
+  .about-stats {
+    padding: 0 3rem 5rem;
+  }
+  .gallery-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    grid-auto-rows: 20dvh;
+  }
+  .contact-section {
+    grid-template-columns: 1fr;
+    padding: 5rem;
+    gap: 3.5rem;
+  }
+}
